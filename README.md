@@ -1,7 +1,3 @@
-Thanks for sharing the complete code! Here's a detailed README file for your **Forest Fire Prediction** project, designed to catch a recruiter's attention while presenting the project in an engaging, storytelling format.
-
----
-
 # Forest Fire Prediction: Analyzing and Forecasting Fire Risk
 
 ## Table of Contents
