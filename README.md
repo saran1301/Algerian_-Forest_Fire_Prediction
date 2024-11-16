@@ -52,7 +52,7 @@ EDA revealed critical patterns in fire occurrence and its relationship with weat
 
 2. **Correlation Analysis**:
    - Strong correlations observed between `FWI`, `DC`, and `DMC`.
-   - **Plots**: !image[https://github.com/saran1301/Algerian_Forest_Fire_Prediction/blob/cc816b3af747906bb15b5b231ceef1c3e4da4dfb/src/Visualisations/Correlation_Plots.png]
+   - **Plots**: !image('https://github.com/saran1301/Algerian_Forest_Fire_Prediction/blob/cc816b3af747906bb15b5b231ceef1c3e4da4dfb/src/Visualisations/Correlation_Plots.png')
 
 3. **Monthly Trends**:
    - August and September recorded the highest fire occurrences across both regions.
