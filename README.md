@@ -99,12 +99,26 @@ We implemented and compared multiple regression models to predict the **Fire Wea
 
 ## Results and Insights
 1. **Key Metrics**:
-   - **MAE**: [Insert MAE Placeholder]
-   - **R²**: [Insert R² Placeholder]
+   - **MAE**:
+      - Linear Regression : 32.86525174026157
+      - Lasso Regression : 65.25587759909162
+      - Ridge Regression : 32.8973410601745
+      - ElasticNet Regression : 1.8915134363047041
+      - Lasso CV : **0.68**69133919948954
+      - Ridge Regression CV : 0.856690888884327
+      - ElasticNet CV : 0.7295307419548667
+   - **R²**: 
+      - Linear Regression : -40.88439899735745
+      - Lasso Regression : -118.23635392199061
+      - Ridge Regression : -41.19757581061491
+      - ElasticNet Regression : 0.8731354681001338
+      - Lasso CV : **0.97**37146046555863
+      - Ridge Regression CV : 0.9729928114396739
+      - ElasticNet CV : 0.9789324233433637
 2. **Model Comparison**:
-   - ElasticNet CV emerged as the best model with minimal error and high generalizability.
+   - **Lasso CV** emerged as the best model with minimal error and high generalizability.
 
-3. **Business Insights**:
+3. **Insights**:
    - Regions with high `FWI` values require proactive monitoring during dry seasons.
    - Resource allocation can be optimized by focusing on August and September, as identified by the monthly analysis.
 
@@ -122,7 +136,3 @@ This project successfully demonstrates the use of machine learning to predict fi
    - Map high-risk areas using GIS tools.
 3. **Real-Time Predictions**:
    - Deploy models on IoT-enabled weather stations for dynamic monitoring.
-
----
-
-This README file not only highlights your project's technical depth but also emphasizes its practical applications and business value, making it highly appealing to recruiters. Let me know if you need further customization!
